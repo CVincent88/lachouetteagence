@@ -31,7 +31,6 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -839,9 +838,18 @@ a.lien-footer:hover {
     text-decoration: underline;
 }
 
-.white{
+.white {
     color: #FFFFFF;
-    z-index: 999;
+}
+
+.relative {
+    position: relative;
+}
+
+#bloc-6 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 @media (max-width: 1024px) {
