@@ -18,6 +18,10 @@ a:hover {
     cursor: pointer;
 }
 
+*:focus, a:focus{
+    border: 5px solid blue;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
