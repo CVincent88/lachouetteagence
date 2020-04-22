@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255, 1);
 }
 
 .d-bloc button:hover {
@@ -652,7 +652,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -678,7 +678,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -754,7 +754,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(139, 115, 80, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -772,20 +772,24 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #B54F24;
 }
 
 .tc-white {
     color: #F3976C!important;
 }
 
+.tc-black {
+    color: #12040F!important;
+}
+
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #B54F24;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #b26547!important;
     color: #FFFFFF!important;
 }
 
@@ -824,6 +828,20 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
+}
+
+a.lien-footer {
+    color: #FFFFFF;
+}
+
+a.lien-footer:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.white{
+    color: #FFFFFF;
+    z-index: 999;
 }
 
 @media (max-width: 1024px) {
