@@ -44,7 +44,12 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 60px 0;
+}
+
+.bloc-lg-contact {
+    display: flex;
+    justify-content: center;
 }
 
 .bloc-md {
@@ -508,6 +513,23 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    margin: 5px;
+}
+
+label{
+    display: block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: left;
+    margin: 0 5px;
+}
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 .scrollToTop {
