@@ -18,6 +18,10 @@ a:hover {
     cursor: pointer;
 }
 
+*:focus, a:focus{
+    border: 5px solid blue;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -31,7 +35,6 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -45,7 +48,12 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 60px 0;
+}
+
+.bloc-lg-contact {
+    display: flex;
+    justify-content: center;
 }
 
 .bloc-md {
@@ -100,7 +108,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255, 1);
 }
 
 .d-bloc button:hover {
@@ -509,6 +517,23 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    margin: 5px;
+}
+
+label{
+    display: block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: left;
+    margin: 0 5px;
+}
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 .scrollToTop {
@@ -652,7 +677,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -678,7 +703,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -754,7 +779,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(139, 115, 80, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -772,20 +797,24 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #B54F24;
 }
 
 .tc-white {
     color: #F3976C!important;
 }
 
+.tc-black {
+    color: #12040F!important;
+}
+
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #B54F24;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #b26547!important;
     color: #FFFFFF!important;
 }
 
@@ -823,7 +852,30 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
+}
+
+a.lien-footer {
+    color: #FFFFFF;
+}
+
+a.lien-footer:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.relative {
+    position: relative;
+}
+
+#bloc-6 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 @media (max-width: 1024px) {
