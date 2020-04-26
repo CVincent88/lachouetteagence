@@ -1099,6 +1099,7 @@ a.lien-footer:hover {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+        max-width: 100%;
     }
 }
 
