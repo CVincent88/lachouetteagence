@@ -7,7 +7,7 @@ Header set Cache-Control "max-age=31556952, public"
 Header set Cache-Control "max-age=31556952, private"
 </FilesMatch>
 <filesMatch "\.(html|htm)$">
-Header set Cache-Control "max-age=7200, public"
+Header set Cache-Control: max-age=31536952, public"
 </filesMatch>
 # Enleve le cache pour les ressources dynamiques
 <FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
