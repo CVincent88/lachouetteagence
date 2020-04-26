@@ -3,7 +3,7 @@
   ExpiresActive On
 
   # Images
-  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/jpeg "access 1 year"
   ExpiresByType image/gif "access plus 1 year"
   ExpiresByType image/png "access plus 1 year"
   ExpiresByType image/webp "access plus 1 year"
@@ -25,12 +25,16 @@
 </IfModule>
 # END Expires Headers
 
+
 # BEGIN Cache-Control Headers
 <IfModule mod_headers.c>
-<FilesMatch "\.(ico|jpe?g|png|gif|swf|css|gz)$">
+<FilesMatch "\.(ico|jpeg|jpg|png|gif|swf|css|gz)$">
 Header set Cache-Control "max-age=31556952, public"
 </FilesMatch>
 <FilesMatch "\.(js)$">
+Header set Cache-Control "max-age=31556952, private"
+</FilesMatch>
+<FilesMatch "\.(css)$">
 Header set Cache-Control "max-age=31556952, private"
 </FilesMatch>
 <filesMatch "\.(html|htm)$">
