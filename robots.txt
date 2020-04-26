@@ -1,0 +1,5 @@
+User-Agent: *
+disallow:
+
+Sitemap: https://cvincent88.github.io/lachouetteagence/
+Sitemap: https://cvincent88.github.io/lachouetteagence/contact.html
