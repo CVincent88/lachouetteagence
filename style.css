@@ -12,6 +12,9 @@ button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
+.no-bold{
+    font-weight: inherit;
+}
 
 .img-responsive{
     width: 570px;
