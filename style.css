@@ -674,6 +674,10 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
+blockquote{
+    font-size: 20px;
+}
+
 h1,
 h2,
 h3,
@@ -687,6 +691,10 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757;
+}
+
+.small-description{
+    font-weight: bold;
 }
 
 .container {
